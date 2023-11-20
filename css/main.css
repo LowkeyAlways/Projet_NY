@@ -1,0 +1,56 @@
+/* reset */
+html{
+    font-size: 62.5%; /* 16px * 62.5% = 10.00rem */
+}
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+    initial-letter: .1rem;
+    line-height: 1.6;
+    background: rgb(150,222,219);
+    background: linear-gradient(90deg, rgba(150,222,219,1) 0%, rgba(209,244,243,1) 50%, rgba(199,241,237,1) 72%, rgba(139,242,245,1) 89%);
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,p,figure,ol,ul,blockquote,address{
+    margin: 0;
+    padding: 0;
+}
+button, a{
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+}
+
+/* theme */
+header h1{
+    text-align: center;
+    font-weight: normal;
+    line-height: 7rem;
+}
+
+section{
+    max-width: 80rem;
+    margin: 2rem auto;
+    border: solid .1rem #ccc;
+    background-color: #fafafa;
+
+}
+section img{
+    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+}
+section h2{
+    
+    padding: 1rem;
+    font-weight: normal;
+}
+section p{
+    background-color: #fafafa;
+    padding: 2rem;
+}
+footer *{
+    text-align: center;
+}
