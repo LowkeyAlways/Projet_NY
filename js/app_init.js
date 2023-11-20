@@ -1,5 +1,5 @@
 
-export const City = {
+export const Description = {
     Image: "./asset/cover.jpg",
     Description: `New York est une ville composée de 5 arrondissements à l'embouchure du fleuve Hudson et de l'océan Atlantique. En son centre se trouve Manhattan, un arrondissement densément peuplé faisant partie des principaux centres commerciaux, financiers et culturels du monde. Ses sites incontournables comprennent des gratte-ciel comme l'Empire State Building et l'immense Central Park. Le théâtre de Broadway est situé sur Times Square`,
     Météo: `6°C, vent O à 6 km/h, 68 % d'humidité weather.com`,
@@ -8,11 +8,11 @@ export const City = {
     Coordonnées: `40° 42′ 51″ nord, 74° 00′ 21″ ouest `
     //icone
 };const Icon = {
-    Description: `<span aria-hidden="true"><ion-icon name="logo-discord"></ion-icon></span>`,
-    Météo: `<span aria-hidden="true"><ion-icon name="cloud-outline"></ion-icon></span>`,
-    Quartier: `<span aria-hidden="true"><ion-icon name="logo-discord"></ion-icon></span>`,
-    Population: `<span aria-hidden="true"><ion-icon name="people-circle-outline"></ion-icon></span>`,
-    Coordonnées: `<span aria-hidden="true"><ion-icon name="logo-discord"></ion-icon></span>`
+    Description: `<span aria-hidden="true">📖</span>`,
+    Météo: `<span aria-hidden="true">⛅️</span>`,
+    Quartier: `<span aria-hidden="true">🏢</span>`,
+    Population: `<span aria-hidden="true">👨‍👨‍👦</span>`,
+    Coordonnées: `<span aria-hidden="true">📍</span>`
 };
 
 //console.table(City)
@@ -20,8 +20,8 @@ export const Template = {
     el: document.querySelector("section ul"),
     printF() {
 
-        for (let index in City) {
-            let value = City[index];
+        for (let index in Description) {
+            let value = Description[index];
             console.log(index);
             index == "Image" ? this.el.innerHTML += `<li><img src="${value}" alt="image"></li>` : this.el.innerHTML += `<li>
                                     ${Icon[index]} <strong>${index}</strong> : ${value}
@@ -34,17 +34,6 @@ export const Template = {
     el : document.querySelector("section"),
     printF(){
         return this.el.innerHTML += `<ul>
-<<<<<<< Updated upstream
-                                        <li><img src="${Description.image}" alt="cover"></li>
-                                        <li><strong><span aria-hidden="true">📖</span> Description</strong> : ${Description.description}</li>
-                                        <li><strong><span aria-hidden="true">⛅️</span> Météo</strong> : ${Description.Météo}</li>
-                                        <li><strong><span aria-hidden="true">🏢</span> Quartier</strong> : ${Description.Quartier}</li>
-                                        <li><strong><span aria-hidden="true">👨‍👨‍👦</span> Population</strong> : ${Description.Population}</li>
-                                        <li><strong><span aria-hidden="true">📍</span> Coordonnées</strong> : ${Description.Coordonnées}</li>
-                                    <ul>`;
-    }
-};
-=======
                                         <li><img src="${Description.image}" alt="cover" itemprop="image"></li>
                                         <li><strong><span aria-hidden="true">
                                         <ion-icon name="easel-outline"></ion-icon><span> Description</strong> : ${Description.description}</li>
@@ -70,4 +59,3 @@ Altitude : 10 m; Min. −8,2 m; Max. 124,9 m
 Code FIPS : 36-51000
 Code ZIP : 100xx–104xx, 11004–05, 111xx–114xx, 116xx
 Coordonnées : 40° 42′ 51″ nord, 74° 00′ 21″ ouest */
->>>>>>> Stashed changes
