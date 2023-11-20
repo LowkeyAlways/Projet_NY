@@ -18,7 +18,6 @@ export const Tamplate = {
                                         <li><strong><span aria-hidden="true">🏢</span> Quartier</strong> : ${Description.Quartier}</li>
                                         <li><strong><span aria-hidden="true">👨‍👨‍👦</span> Population</strong> : ${Description.Population}</li>
                                         <li><strong><span aria-hidden="true">📍</span> Coordonnées</strong> : ${Description.Coordonnées}</li>
-                                        
                                     <ul>`;
     }
 };
