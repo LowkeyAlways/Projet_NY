@@ -30,6 +30,11 @@ header h1{
     line-height: 7rem;
 }
 
+ul{
+    list-style-type: none;
+    padding: 1rem;
+}
+
 section{
     max-width: 80rem;
     margin: 2rem auto;
