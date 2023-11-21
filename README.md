@@ -1,6 +1,6 @@
 # ⚡️ Création d'une page pour l'utilisation d'objet js 
 >Dans cette page javascript se chrage d'injecter toutes les données de la ville de new york.
-Le but est de récupérer le fichier d'initialisation de  données et la template qui la génère par importation de scripts
+Le but est de récupérer le fichier d'initialisation de  données et la template qui la génère par importation de scripts (de 2 manière différente) 
 ## 👷 Exemple
 ```js
     export const Description = ({
