@@ -16,4 +16,3 @@ Le but est de récupérer le fichier d'initialisation de  données et la templat
     import {Tamplate} from "./app_init.js"
 ```
 [Projet New York](https://lowkeyalways.github.io/Projet_NY/)
-![AUR license](https://img.shields.io/aur/license/c)
